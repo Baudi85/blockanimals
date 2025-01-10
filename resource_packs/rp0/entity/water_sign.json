@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tntgames:water_sign",
+      "materials": { "default": "blockling_sign" },
+      "textures": {
+        "default": "textures/entity/signs/water_sign"
+      },
+      "geometry": {
+        "default": "geometry.small_sign"
+      },
+      "animations": {
+        "facing_east": "animation.sign.facing_east",
+        "facing_north": "animation.sign.facing_north",
+        "facing_west": "animation.sign.facing_west"
+      },
+      "animation_controllers": [
+        { "facing_direction": "controller.animation.sign.facing_direction" }
+      ],
+      "render_controllers": [ "controller.render.blockling" ]
+    }
+  }
+}

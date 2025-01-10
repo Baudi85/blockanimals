@@ -1,0 +1,45 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "tntgames:oak_tree",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 35
+        },
+        "minecraft:biome_filter": {
+          "any_of": [
+			      {
+			        "all_of": [
+				        { "test": "has_biome_tag", "operator":"==", "value": "forest"},
+				        { "test": "has_biome_tag", "operator":"!=", "value": "birch"},
+				        { "test": "has_biome_tag", "operator":"!=", "value": "roofed"},
+				        { "test": "has_biome_tag", "operator":"!=", "value": "extreme_hills"},
+				        { "test": "has_biome_tag", "operator":"!=", "value": "taiga"}
+              ]
+            },
+			      {
+			        "all_of": [
+				        { "test": "has_biome_tag", "operator":"==", "value": "mesa"},
+				        { "test": "has_biome_tag", "operator":"==", "value": "rare"},
+				        { "test": "has_biome_tag", "operator":"==", "value": "stone"}
+              ]
+            },
+            { "test": "has_biome_tag", "operator":"==", "value": "plains"},
+            { "test": "has_biome_tag", "operator":"==", "value": "forest_generation"},
+            { "test": "has_biome_tag", "operator":"==", "value": "flower_forest"}
+          ]
+        }
+      }
+    ]
+  }
+}

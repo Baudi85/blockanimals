@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.sign.facing_east": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [ 0.0, -90.0, 0.0 ]
+        }
+      }
+    },
+    "animation.sign.facing_north": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [ 0.0, -180.0, 0.0 ]
+        }
+      }
+    },
+    "animation.sign.facing_west": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [ 0.0, -270.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

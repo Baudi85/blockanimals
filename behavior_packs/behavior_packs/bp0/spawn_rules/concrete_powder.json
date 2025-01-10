@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "tntgames:concrete_powder",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:biome_filter": {
+          "any_of": [
+			      {
+			        "all_of": [
+				        { "test": "has_biome_tag", "operator":"==", "value": "beach"},
+				        { "test": "has_biome_tag", "operator":"!=", "value": "cold"}
+              ]
+            },
+			      {
+			        "all_of": [
+				        { "test": "has_biome_tag", "operator":"==", "value": "beach"},
+				        { "test": "has_biome_tag", "operator":"==", "value": "stone"}
+              ]
+            },
+            { "test": "has_biome_tag", "operator":"==", "value": "extreme_hills"}
+          ]
+        }
+      }
+    ]
+  }
+}

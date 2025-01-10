@@ -1,0 +1,1285 @@
+{
+  "individual_event_sounds": {
+    "events": {
+      "plop": {
+        "sound": "random.shear_tree",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "cast.spell": {
+        "sound": "block.itemframe.rotate_item",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "tntgames:acacia_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:andesite": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:birch_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:bone_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.bone_block",
+            "volume": 0.38,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.bone_block",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.bone_block",
+            "volume": 0.22
+          }
+        }
+      },
+      "tntgames:bookshelf": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:brown_mushroom": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:cactus_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.cloth",
+            "volume": 0.35,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.cloth",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.cloth",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:cake": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.cloth",
+            "volume": 0.35,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.cloth",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.cloth",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:clay": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.gravel",
+            "volume": 0.17,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.gravel",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.gravel",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:coal_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:cocoa_bean": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:concrete_powder": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.sand",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.sand",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.sand",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:dark_oak_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:diamond_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:diorite": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:dried_kelp_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.grass",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.grass",
+            "volume": 0.7,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.grass",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:emerald_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:end_stone": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:glowstone": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.40,
+            "pitch": 0.6
+          },
+          "death": {
+            "sound": "random.glass",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:gold_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:granite": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:grass": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.grass",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.grass",
+            "volume": 0.7,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.grass",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:gravel": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.gravel",
+            "volume": 0.17,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.gravel",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.gravel",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:honey_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.honey_block",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.honey_block",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.honey_block",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:honeycomb": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.coral",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.coral",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.coral",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:ice": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.40,
+            "pitch": 0.6
+          },
+          "death": {
+            "sound": "random.glass",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:iron_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:jungle_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:lapis_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:lava": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "ambient": {
+            "sound": "liquid.lava",
+            "volume": [ 0.4, 0.6 ],
+            "pitch": [ 0.9, 1.05 ]
+          },
+          "hurt": "bucket.fill_lava",
+          "death": "bucket.empty_lava"
+        }
+      },
+      "tntgames:magma_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:mycelium": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.grass",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.grass",
+            "volume": 0.7,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.grass",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:nether_quartz_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:netherrack": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.netherrack",
+            "volume": 0.22,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.netherrack",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.netherrack",
+            "volume": 0.13,
+            "pitch": [1.0, 1.1]
+          }
+        }
+      },
+      "tntgames:oak_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:obsidian": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:podzol": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.gravel",
+            "volume": 0.17,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.gravel",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.gravel",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:prismarine": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:purpur": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:red_mushroom": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:red_sand": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.sand",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.sand",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.sand",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:red_sandstone": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:redstone_ore": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:sand": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.sand",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.sand",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.sand",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:sandstone": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:slime": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.slime",
+            "volume": 0.25,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "mob.slime.big",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.slime",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:snow_block": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.snow",
+            "volume": 0.35,
+            "pitch" : 0.5
+          },
+          "death": {
+            "sound": "dig.snow",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.snow",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:soul_sand": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.soul_sand",
+            "volume": 0.21,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.soul_sand",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.soul_sand",
+            "volume": 0.15
+          }
+        }
+      },
+      "tntgames:sponge": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.grass",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.grass",
+            "volume": 0.7,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.grass",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:spruce_tree": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.wood",
+            "volume": 0.23,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.wood",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.wood",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:stone": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:terracotta": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.stone",
+            "volume": 0.37,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.stone",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.stone",
+            "volume": 0.30
+          }
+        }
+      },
+      "tntgames:tnt": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "hit.grass",
+            "volume": 0.30,
+            "pitch": 0.5
+          },
+          "death": {
+            "sound": "dig.grass",
+            "volume": 0.7,
+            "pitch": [0.8, 1.0]
+          },
+          "step": {
+            "sound": "step.grass",
+            "volume": 0.30
+          },
+          "fuse": {
+            "sound": "random.fuse",
+            "volume": 1.0,
+            "pitch": 0.5
+          }
+        }
+      },
+      "tntgames:big_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:desert_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:info_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:jungle_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:nether_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:ranch_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:snow_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:swamp_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:water_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:breeding_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:concrete_powder_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:finding_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:grass_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:important_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:obsidian_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:start_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:tree_sign": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "block.itemframe.break",
+            "volume": 1.0,
+            "pitch": [0.8, 1.0]
+          }
+        }
+      },
+      "tntgames:tutorial_villager": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death"
+        }
+      }
+    }
+  }

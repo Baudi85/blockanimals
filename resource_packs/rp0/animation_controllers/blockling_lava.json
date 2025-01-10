@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.blockling_lava.particles": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "particle_effects": [
+            { "effect": "lava_drip" },
+            { "effect": "lava_particle" }
+          ]
+        }
+      }
+    }
+  }
+}

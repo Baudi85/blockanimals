@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tntgames:cake",
+      "materials": { "default": "blocklingbase" },
+      "textures": {
+        "default": "textures/entity/block_animals/blockling_cake"
+      },
+      "geometry": {
+        "default": "geometry.blocklingbase"
+      },
+      "animations": {
+        "move": "animation.blocklingbase.move"
+      },
+      "scripts": {
+        "animate": [
+          { "move": "query.modified_move_speed" }
+        ]
+      },
+      "render_controllers": [ "controller.render.blockling" ],
+      "spawn_egg": {
+        "texture": "blockling_spawn_egg",
+        "texture_index": 7
+      }
+    }
+  }
+}

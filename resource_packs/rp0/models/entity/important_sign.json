@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"geometry.important_sign": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "bone",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-1, 0, 0], "size": [2, 25, 2], "uv": [0, 19]},
+					{"origin": [-9, 18, -2], "size": [18, 2, 2], "uv": [0, 15]},
+					{"origin": [-9, 3, -1], "size": [18, 15, 0], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

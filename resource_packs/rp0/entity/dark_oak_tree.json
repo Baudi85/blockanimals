@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tntgames:dark_oak_tree",
+      "materials": { "default": "blocklingbase" },
+      "textures": {
+        "default": "textures/entity/block_animals/blockling_tree_darkoak"
+      },
+      "geometry": {
+        "default": "geometry.blocklingbase_tree",
+        "sheared": "geometry.blocklingbase_tree.sheared"
+      },
+      "animations": {
+        "move": "animation.blocklingbase.move"
+      },
+      "scripts": {
+        "animate": [
+          { "move": "query.modified_move_speed" }
+        ]
+      },
+      "render_controllers": [ "controller.render.blockling_tree" ],
+      "spawn_egg": {
+        "texture": "blockling_spawn_egg",
+        "texture_index": 12
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "random.shear_tree": {
+      "sounds": [
+        "sounds/mob/blockling_tree/shear1",
+        "sounds/mob/blockling_tree/shear2",
+        "sounds/mob/blockling_tree/shear3",
+        "sounds/mob/blockling_tree/shear4"
+      ]
+    },
+    "blockling_tnt.fuse": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/random/fuse"
+      ]
+    }
+  }
+}

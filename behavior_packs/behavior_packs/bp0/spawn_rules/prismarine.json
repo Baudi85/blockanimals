@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "tntgames:prismarine",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underwater": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 50
+        },
+        "minecraft:biome_filter": {
+          "all_of": [
+            { "test": "has_biome_tag", "operator":"==", "value": "ocean"},
+            { "test": "has_biome_tag", "operator":"==", "value": "deep"},
+            { "test": "has_biome_tag", "operator":"!=", "value": "lukewarm"},
+            { "test": "has_biome_tag", "operator":"!=", "value": "warm"}
+          ]
+        }
+      }
+    ]
+  }
+}

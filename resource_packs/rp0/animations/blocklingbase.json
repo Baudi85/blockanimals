@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.blocklingbase.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leftLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * 80.0", 0.0, 0.0 ]
+        },
+        "rightLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0", 0.0, 0.0 ]
+        },
+        "leftArm": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * 80.0", "math.cos(query.anim_time * 38.17) * 20.0", 0.0 ]
+        },
+        "rightArm": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0", "math.cos(query.anim_time * 38.17) * 20.0", 0.0 ]
+        }
+      }
+    }
+  }
+}

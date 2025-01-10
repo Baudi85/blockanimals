@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"geometry.blocklingbase": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 12, 0],
+				"rotation": [0, 180, 0],
+				"cubes": [
+					{"origin": [-8, 4, -8], "size": [16, 16, 16], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "rightLeg",
+				"parent": "head",
+				"pivot": [4, 5, 0],
+				"cubes": [
+					{"origin": [1, 0, -3], "size": [6, 6, 6], "uv": [0, 32]}
+				]
+			},
+			{
+				"name": "leftLeg",
+				"parent": "head",
+				"pivot": [-4, 5, 0],
+				"cubes": [
+					{"origin": [-7, 0, -3], "size": [6, 6, 6], "uv": [24, 32]}
+				]
+			},
+			{
+				"name": "leftArm",
+				"parent": "head",
+				"pivot": [-8, 14, 0],
+				"rotation": [0, 0, 20],
+				"cubes": [
+					{"origin": [-10.42688, 4.3933, -2], "size": [4, 10, 4], "uv": [0, 44]}
+				]
+			},
+			{
+				"name": "rightArm",
+				"parent": "head",
+				"pivot": [8, 14, 0],
+				"rotation": [0, 0, -20],
+				"cubes": [
+					{"origin": [6.42688, 4.3933, -2], "size": [4, 10, 4], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

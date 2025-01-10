@@ -1,0 +1,12 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.position_message": {
+      "animation_length": 0.5,
+      "loop": true,
+      "timeline": {
+        "0": "/titleraw @s[x=553,y=53,z=268,dx=-30,dy=5,dz=8] actionbar {\"rawtext\":[{\"translate\":\"actionbar.begin.pressButton\"}]}"
+      }
+    }
+  }
+}

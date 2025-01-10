@@ -1,0 +1,15 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "blocklingbase:entity_alphatest": {},
+    "concrete_powder:entity_change_color": {},
+    "glowstone:entity_emissive_alpha": {},
+    "lava:entity_emissive_alpha": {},
+    "translucent_blockling:entity": {
+      "+states": [ "Blending" ]
+    },
+    "blockling_sign:entity_alphatest": {
+      "-defines": [ "USE_OVERLAY" ]
+    }
+  }
+}

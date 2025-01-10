@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.blockling_lava": {
+      "arrays": {
+        "textures": {
+          "Array.skin_var": [ 
+            "Texture.frame_0",
+            "Texture.frame_1",
+            "Texture.frame_2",
+            "Texture.frame_3",
+            "Texture.frame_4",
+            "Texture.frame_5",
+            "Texture.frame_6",
+            "Texture.frame_7",
+            "Texture.frame_8",
+            "Texture.frame_9",
+            "Texture.frame_10",
+            "Texture.frame_11",
+            "Texture.frame_12",
+            "Texture.frame_13",
+            "Texture.frame_14"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skin_var[query.life_time * 16]" ]
+    }
+  }
+}
